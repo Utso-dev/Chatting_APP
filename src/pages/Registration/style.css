@@ -1,0 +1,74 @@
+.registration-header{
+    margin-bottom: 30px;
+}
+.registration-header h2{
+    font-family: var(--secendary-font);
+    font-size: 34px;
+    color: var(--titelColor);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.registration-header p{
+    font-family: var(--secendary-font);
+    font-size: 20px;
+    color: var(--subTitelColor);
+    font-weight: 400;
+    margin-top: 5px;
+}
+.password{
+    position: relative;
+}
+
+.eyes{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.eyeColor{
+    color: var( --primaryColor);
+}
+
+.sign-pic img{
+  width: 100%;
+}
+.link p{
+    font-family: var(--secendary-font);
+    font-size: 20px;
+    color: var(--TitelColor);
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+    width: 72%;
+}
+
+.link a{
+    color: var(--primaryColor);
+}
+.link a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+    .eyes {
+        right: 4%;
+    }
+    .registration-header{
+        text-align: center;
+    }
+    .sign-pic{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .sign-pic img{
+        width: 100%;
+        
+    }
+    
+}

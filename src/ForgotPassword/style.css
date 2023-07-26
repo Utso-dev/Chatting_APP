@@ -1,0 +1,50 @@
+.forgot-password{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.forgot-wrpper{
+    width: 500px;
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    margin:  0 auto;
+    align-items:center ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.forgot-header h4{
+    font-family: var(--secendary-font);
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--titelColor);
+    margin-bottom: 20px;  
+}
+.reset-input{
+    margin-bottom: 20px;
+}
+.reset-input-design{
+    width: 100%;
+}
+
+.reset-button a Button{
+   background-color: rgba(173, 167, 167, 0.494) !important;
+   color: var(--titelColor);
+   font-size: 18px;
+   font-family: var(--primary-font);
+   font-weight: 500;
+   margin-right: 20px;
+}
+.reset-button{
+    text-align: right;
+}
+.reset-button Button{
+   font-size: 18px;
+   font-family: var(--secendary-font);
+   font-weight: 500;
+}

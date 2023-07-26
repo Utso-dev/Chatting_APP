@@ -1,13 +1,72 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  text-decoration: none;
 }
+
+ul,ol{
+  list-style-type: none;
+}
+
+:root{
+  --commonColor: #fff;
+  --titelColor: #060047;
+  --subTitelColor : #737373;
+  --primaryColor : #6A4DF4;
+  --error : #F55050;
+  --leftMassage: #F1F1F1; 
+  --black: #000;
+  --secendaryColor : #03014c;
+  --greenColor : #00FF75;
+  --red-oreng : #ea6c00;
+  --primary-font:  'Poppins', sans-serif;
+  --secendary-font :'Nunito', sans-serif;
+  --rare-font :  'Open Sans', sans-serif;
+}
+
+/* ======== registration css design ================ */
+body{
+  background-color: #f9f9f9;
+}
+.box{
+  align-items: center;
+  height: 100vh;
+}
+
+.input-design{
+  width: 73% !important;
+  margin-bottom: 20px !important; 
+}
+.block-wrp {
+   margin-top: 0px !important; 
+ 
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus {
+  outline: 0;
+  border-color: #F55050;
+}
+
+.button button{
+  background-color: var(--primaryColor) !important;
+  width: 73%;
+  padding: 20px 10px !important;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+
+}
+
+.Errors{
+  color: var(--error);
+  margin-bottom: 20px;
+  /* margin-top: 20px !important; */
+}
+.massFriend{
+  margin-top: 10px;
+}
+
